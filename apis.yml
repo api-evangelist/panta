@@ -1,7 +1,18 @@
 aid: panta
 name: Panta
-description: Panta is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Panta is an AI-native commercial insurance brokerage that automates the
+  operations layer of insurance placement. Rather than selling software to
+  brokers, Panta operates as a licensed broker (all 50 states) whose AI
+  operators handle submissions, follow-ups, service, and renewals across file
+  systems, carrier portals, email, phone, and PDFs. It focuses on hard-to-place
+  Excess & Surplus (E&S) and heavy-industry risk — construction and trades,
+  transportation and logistics (trucking fleets, owner-operators, cargo),
+  manufacturing, and hospitality — placing coverage across General Liability,
+  Workers Compensation, Commercial Auto, Property, Cyber, Professional
+  Liability, Umbrella/Excess, and Employment Practices Liability through an
+  A-rated carrier panel. Surfaced as a Y Combinator portfolio company. Panta
+  publishes no public API or developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/panta/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,47 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://pantainsure.com/favicon.ico
 tags:
 - Company
+- Insurance
+- Insurtech
+- Commercial Insurance
+- Brokerage
+- AI Agents
+- Risk Placement
+- Excess and Surplus
 apis: []
+common:
+- type: DomainSecurity
+  url: security/panta-domain-security.yml
+- type: Website
+  url: https://pantainsure.com
+- type: PrivacyPolicy
+  url: https://pantainsure.com/privacy
+- type: Support
+  url: https://pantainsure.com/faq
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
